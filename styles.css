@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(rgb(255, 101, 178), rgb(89, 0, 114));
+    background-attachment: fixed;
+    margin: 0px;
+    /* display: felx; */
+}
+
+#bulbs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* position: absolute;
+    top: 2%; */
+    margin: 0px;
+    height: 10%;
+}
+
+#text {
+    text-align: center;
+    display: block;
+    padding-top: 2%;
+}
+
+#ballons {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 2%;
+    height: 20%;
+}
+
+#cace {
+    text-align: center;
+    display: block;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+#heart{
+    height: 100px;
+    width: 100px;
+}
